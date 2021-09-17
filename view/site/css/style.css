@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:link {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.nav {
+    width: 100%;
+    height: 90px;
+}
+.menu {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+.menu ul {
+    width: 100%;
+    display: inline-block;
+    height: 90px;
+}
+.menu ul li a{
+    width: 100%;
+}
+.menu ul li:last-of-type{
+    position: absolute;
+    right: 20px;
+}
+.menu ul li a:hover{
+    transition: 0.5s;
+    color: #424242;
+    background-color: whitesmoke;
+    box-shadow: 7px 7px #424242;
+}
+.menu ul li a{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: medium;
+    padding: 0 20px;
+    float: right;
+}
+.menu ul li {
+    margin-top: 10px;
+    margin-left: 2px;
+    display: inline-block;
+    width: auto;
+    height: 200px;
+    line-height: 60px;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.logo img{
+    width: auto;
+    height: 150px;
+    padding: 5px 10px;
+}
+.slider{
+    width: 100%;
+    height: 700px;
+}
+.sliderblog{
+    height: 500px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.baslik{
+    width: 100%;
+    height: 150px;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(44, 44, 44);
+    padding-left:50px;
+}
+.baslik h2{
+    line-height: 150px;
+
+}
+.content{
+    position: relative;
+    padding: 60px;
+    box-sizing:border-box;
+    background-color: whitesmoke;  
+    hyphens: auto;
+    height: auto;
+}
+.content p{
+    line-height: 2;
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+    color :white;
+    font-size: large;
+}
+.footer p{
+    padding: 30px 0;
+    text-align: center;
+}
+.img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px;
+}
+.img-blog{
+    width: 25rem;
+    height: 18rem;
+    border-radius: 10%;
+    object-fit: cover;
+    padding: 15px;
+}
+.evler{
+    position: relative;
+    width: 90%;
+    height: 2000px;
+    margin: auto;
+}
+.filtre{
+    width: 24%;
+    height: auto;
+    background-color: white;
+    box-shadow:2px 2px 4px 5px #e8e8e8;
+    display: inline-block;
+    position: absolute;
+    border-radius: 6px;
+}
+.icerik{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 74%;
+    height: 2000px;
+}
+.evcard:first-of-type{
+    margin: auto;
+}
+.evcard{
+    position: relative;
+    width: 95%;
+    height: 230px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow:1px 1px 3px 4px #e8e8e8;
+}
+.evresim{
+    padding: 10px;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+.evresim img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-container{
+    border-radius: 6px;
+}
+.evicerik{
+    position: absolute;
+    width: 68%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 30px 20px 20px 30px;
+}
+.evbaslik{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 0 0 10px 0;
+}
+.evfiyat{
+    width: 95%;
+    height: auto;
+    margin: 5px auto;
+    padding: 10px 0 10px 0;
+}
+.evdetay{
+    width: 95%;
+    height: auto;
+    margin: 5px auto;
+    padding: 10px 0 10px 0;
+}
+.evdetay a{
+    padding: 5px 10px;
+}
+.evdetayresim{
+    width: 95%;
+    height: 800px;
+
+    margin: auto;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}
+.bilgiler{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+.evdetaybaslik{
+    width: 100%;
+    padding: 70px 40px 40px 70px;
+}
+.evdetaydurum, .adres,.aciklama,.ozellikler{
+    padding : 10px 10px 25px 70px;
+}
+.aciklama h3,.ozellikler h3{
+    padding: 20px 0 20px 0;
+}
+.bizkimiz{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.medya{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 350px;
+}
+.medyacard{
+    hyphens: auto;
+    position: relative;
+    width: 30%;
+    height: 240px;
+    display: inline-block;
+    background:white;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-top: 50px;
+    border-radius: 7%;
+    box-shadow:2px 2px 3px 4px #e8e8e8;
+}
+.MCresim{
+    width: 110px;
+    height: 110px;
+    margin: 10px auto;
+}
+.MCresim img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.MCyorum{
+    box-sizing: border-box;
+    max-height: 90px;
+    width: 80%;
+    height: 90px;
+    margin: 10px auto;
+}
+
+.sponsorlar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.spresim{
+    margin-left: 4%;
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
+.spresim img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
